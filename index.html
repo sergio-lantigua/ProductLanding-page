@@ -6,98 +6,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
     <title>Product Landing Page</title>
 </head>
 
 <body>
     <div id="page-wrap">
-    <header>
-       <div id="logo-div"><img src="https://lh3.googleusercontent.com/YwMggFPvpCw7SKLyflTXsvdv1XllEtsJbrNoYF7xLZta2TM3Juh_M_vLyK0xU4HxUmwZYrwy8pwsQqxo2KBbO3-P2TcSjMq2bob0lG3acUSxyOZGjmZu8GvUSuclBbKinbHywAN0D2Qx22IkD82lAiySCLEKbZLWZyPusCZxbQvofEvc54o6TFbIqVDPO7ihVJAhZywWvleEFpPFyMpe3BW5BGHXTJbVdxFSjiJNIMKBS0Xepdbok4qYzsHx2AvD66wW9wONvKcMT5M5J2hCiZ_kXMYFDunYgRdTGS4QV-T7eTKYp2Azngeca8GOoq9BS_CAthN_oAPd9QuHAeC36AsF32IGsKwdqZGVEP6K7FK7E4hf0XyGEGZcUjQmbSnrag_nZX3TEmMSd833LUsr7rhhdXOrvhpoMzp07S-wJkMxP59XqboJIlnTHM-W-XEfJZRLGut61_Y99c0WLwpcOBveEe0lwLXthc47qtlhOptjB_Sy9TwSZfPgIq7ses6VY3IEyxGeRUV38n76bs31iutkKFHtYuAap6nzeCIBLN3D2I1bguk6qRCY8lnINPA6sRHXUsGQq_T9HQpvJLQWpPiLgvWghcylOv1Ju9NrAH3ZtVebN_9BI5FbJXQSHIr5XS_td8-LQ5bVDukKt79VIFAlb2dD0UA=w187-h44-no" alt="hammer logo"></div>
-        <nav> 
-        <ul>
-            <li> <a href=""> features </a></li>
-            <li> <a href=""> how it works </a></li>
-            <li><a href=""> pricing </a></li>
-        </ul>      
-        </nav> 
-    </header>
-    <main>
-        <section id="form-section">
-            <h2>HandMade-Wood Hammers</h2>
-        <form action="">
-            <input type="email" name="" id="input-email" placeholder="Enter your email..."><br>
-            <button type="submit" > GET STARTED</button>
-        </form>
-        </section>
-        <section id="features" >
-        <div>
-            <div class="icon-div"><img class="icon-img" src="manito1.png" alt=""></div>
-            <div class="features-txt">
-            <h3>Premiun Materials</h3>
-            <p>Our hammers are made with the best wood in the market, thus ensuring the durability of the product.</p>
+        <header id="header">
+            <div id="logo-div"><img id="header-img"
+                    src="https://raw.githubusercontent.com/sergio-lantigua/ProductLanding-page/master/Images/newlogo1.png"
+                    alt="hammer logo"></div>
+            <nav id="nav-bar">
+                <ul>
+                    <li> <a class="nav-link" href="#features"> features </a></li>
+                    <li> <a class="nav-link" href="#video-section"> how it works </a></li>
+                    <li><a class="nav-link" href="#pricing"> pricing </a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="form-section">
+                <h2>HandMade-Wood Hammers</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input id="email" type="email" name="email" id="input-email" placeholder="Enter your email..."
+                        required><br>
+                    <input id="submit" type="submit" value="GET STARTED">
+                </form>
+            </section>
+            <div id="wrap-div">
+                <section id="features">
+                    <div>
+                        <div class="icon-div"><img class="icon-img"
+                                src="https://raw.githubusercontent.com/sergio-lantigua/ProductLanding-page/master/Images/manito1.png"
+                                alt=""></div>
+                        <div class="features-txt">
+                            <h3>Premiun Materials</h3>
+                            <p>Our hammers are made with the best wood in the market, thus ensuring the durability of
+                                the product.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="icon-div"><img class="icon-img"
+                                src="https://raw.githubusercontent.com/sergio-lantigua/ProductLanding-page/master/Images/truck1.png"
+                                alt=""></div>
+                        <div class="features-txt">
+                            <h3>Fast Shipping</h3>
+                            <p>We make sure you recieve your hammer as soon as we have finished making it. We also
+                                provide free returns if you are not satisfied.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="icon-div"><img class="icon-img"
+                                src="https://raw.githubusercontent.com/sergio-lantigua/ProductLanding-page/master/Images/quality1.png"
+                                alt=""></div>
+                        <div class="features-txt">
+                            <h3>Quality Assurance</h3>
+                            <p>For every purchase you make, we will ensure there are no damages or faults and we will
+                                check and test the pitch of your hammer.</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="video-section">
+                    <div id="video-div">
+                        <iframe id="video" src="https://www.youtube.com/embed/w41OKHNmOig" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </section>
+                <section id="pricing">
+                    <div>
+                        <div class="pricing-titles">Small Ones</div>
+                        <h4>$500</h4>
+                        <ol>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                        </ol>
+                        <button type="summit">Select</button>
+                    </div>
+                    <div>
+                        <div class="pricing-titles">Big Ones</div>
+                        <h4>$700</h4>
+                        <ol>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                        </ol>
+                        <button type="summit">Select</button>
+                    </div>
+                    <div>
+                        <div class="pricing-titles">Extra Ones</div>
+                        <h4>$900</h4>
+                        <ol>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                        </ol>
+                        <button type="summit">Select</button>
+                    </div>
             </div>
-        </div>
-        <div>
-            <div class="icon-div"><img class="icon-img" src="truck1.png" alt=""></div>
-            <div class="features-txt">
-            <h3>Fast Shipping</h3>
-            <p>We make sure you recieve your hammer as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-            </div>
-        </div>
-        <div>
-            <div class="icon-div" ><img class="icon-img" src="quality1.png" alt=""></div>
-            <div class="features-txt">
-            <h3>Quality Assurance</h3>
-            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your hammer.</p>
-            </div>
-        </div>
-        </section>
-        <section id="video-section">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/w41OKHNmOig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-        <section id="pricing">
-            <div>
-               <div class="pricing-titles">Small Ones</div>
-               <h4>$500</h4>
-                <ol>
-                    <li>Lorem ipsum dolor</li>
-                    <li>Lorem ipsum dolor</li>
-                    <li>Lorem ipsum dolor</li>
-                </ol>
-                <button  type="summit">Select</button>
-            </div>
-            <div>
-                <div class="pricing-titles">Big Ones</div>
-                <h4>$700</h4>
-                <ol>
-                    <li>Lorem ipsum dolor</li>
-                    <li>Lorem ipsum dolor</li>
-                    <li>Lorem ipsum dolor</li>
-                </ol>
-                <button  type="summit">Select</button>
-            </div>
-            <div>
-                <div class="pricing-titles">Extra Ones</div>
-                <h4>$900</h4>
-                <ol>
-                    <li>Lorem ipsum dolor</li>
-                    <li>Lorem ipsum dolor</li>
-                    <li>Lorem ipsum dolor</li>
-                </ol>
-                <button  type="summit">Select</button>
-            </div>
-        </div>
-        </section>
+            </section>
+    </div>
     </main>
     <footer>
         <ul>
-            <li>privacy</li>
-            <li>terms</li>
-            <li>contact</li>
+            <li> <a href="">privacy</a></li>
+            <li> <a href="">terms</a></li>
+            <li> <a href="">contact</a></li>
         </ul>
-      <span>CopyRight 2019, Wood Hammer</span>
+        <span>CopyRight 2019, Wood Hammer</span>
     </footer>
-</div>
+    </div>
 </body>
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
 
 </html>
